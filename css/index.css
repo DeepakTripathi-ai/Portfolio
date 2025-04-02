@@ -35,6 +35,49 @@ body {
     margin: 0 10px;
 }
 
+
+/* ---------Header Complete---------- */
+
+
+/* -------about section------ */
+
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 50px;
+    gap: 40px;
+}
+
+.image-container {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-content {
+    max-width: 500px;
+}
+
+.text-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* -------about section completed------ */
+
+
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .menu-icon {
@@ -57,9 +100,15 @@ body {
     .navbar-links.show {
         display: flex;
     }
+
+    /* -------about section------ */
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
 }
 
-
-/* ---------Header Complete---------- */
 
 
