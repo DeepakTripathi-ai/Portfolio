@@ -76,6 +76,69 @@ body {
 /* -------about section completed------ */
 
 
+ /* -----my projects start----- */
+.text-project{
+    display: flex;
+    margin-left: 75px;
+}
+.text-project h1{
+    font-size: 3rem;
+    color: white;
+}
+
+/* Container for all projects */
+.my-projects {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+/* Individual project card */
+.project {
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 20px;
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for project cards */
+.project:hover {
+    transform: translateY(10px);
+}
+
+/* Project image styling */
+.project img {
+    width: 90%;
+    border-radius: 8px;
+    height: auto;
+}
+
+/* Project title styling */
+.project h1 {
+    font-size: 1.5rem;
+    margin: 16px 0;
+    color: #333;
+}
+
+/* Styling for the project link */
+.project a {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the project link */
+.project a:hover {
+    background-color: #0056b3;
+}
+
 
 
 /* Responsive Design */
@@ -106,7 +169,29 @@ body {
         flex-direction: column;
         text-align: center;
     }
+    /* ------complete about section---- */
+    
+    /* ----project section---- */
 
+    .text-project{
+        display: flex;
+        justify-content: center;
+        margin: 0px 20px;
+    }
+    .text-project h1{
+        font-size: 2.5rem;
+        color: white;
+    }
+
+    .my-projects {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .project{
+        width: 300px;
+    }
+    
     
 }
 
