@@ -3,22 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My_Portfoilo</title>
-    <link rel="stylesheet" href="style.css">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <header>
-        <h1>Deepak Tripathi</h1>
-        <p>Goal:  MERN Stack Developer</p>
-    </header>
 
-    <section>
-        <h2>About Me</h2>
-        <p>I am an M.Com student with a passion for web development. I am currently learning HTML, CSS, JavaScript, and GitHub.</p>
-    </section>
+    <nav class="navbar">
+        <a href="https://github.com/DeepakTripathi-ai" class="logo">MyPortfolio</a>
+        
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
 
-    <button onclick="aboutMe()">About Me</button>
+        <div class="navbar-links">
+            <a href="index.html"> Home</a>
+            <a href="#">Projects</a>
+            <a href="#">Skills</a>
+            <a href="#">About</a>
+        </div>
+    </nav>
 
-    <script src="script.js"></script>
+    <script src="js/global.js"></script>
+
 </body>
 </html>
