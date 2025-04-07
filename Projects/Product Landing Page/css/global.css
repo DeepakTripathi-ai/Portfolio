@@ -1,15 +1,18 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #222;
     color: white;
 }
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #0f172a;
     padding: 15px 20px;
 }
 .navbar a {
@@ -20,7 +23,7 @@ body {
     transition: 0.3s;
 }
 .navbar a:hover {
-    background-color: #555;
+  background-color: #1e293b;
     border-radius: 5px;
 }
 .menu-icon {
@@ -35,6 +38,54 @@ body {
     margin: 0 10px;
 }
 
+/* ------navbar section complete------- */
+
+ 
+/* ----------footer---------- */
+
+
+/* Footer Styling */
+
+footer {
+    margin-top: 50px;
+  }
+  
+  .footer-container{
+    background-color: #0f172a;
+    display: flex;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .footer-container p{
+    color: white;
+  }
+  
+  .footer-icons{
+    justify-content: center;
+    gap: 20px; 
+    align-items: center;
+    display: flex;
+  }
+  
+  .footer-icons a{
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: rgb(255, 255, 255);
+  }
+  
+  .footer-icons a:hover {
+    color: #6b73ff;
+  }
+  
+  /* ----footer complete------ */
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .menu-icon {
@@ -47,7 +98,7 @@ body {
         position: absolute;
         top: 60px;
         left: 0;
-        background-color: #333;
+        background-color: #0f172a;
         text-align: center;
     }
     .navbar-links a {
@@ -61,3 +112,5 @@ body {
 
 
 /* ---------Header Complete---------- */
+
+

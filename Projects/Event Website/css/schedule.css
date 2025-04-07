@@ -1,0 +1,81 @@
+
+.hero{
+    width: 900px;
+    margin: auto;
+    padding: 20px 20px;
+}
+
+
+
+/* 📅 Schedule Section Styles */
+
+.schedule-container {
+    width: 900px;
+    margin: auto;
+    padding: 20px 20px;
+  }
+  
+  .schedule-container h2 {
+    color: #38bdf8;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #3b82f6;
+    padding-bottom: 5px;
+  }
+  
+  .schedule-card {
+    background-color: #1e293b;
+    color: white;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-left: 5px solid #3b82f6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0f172a;
+  }
+
+  
+/* ----------footer---------- */
+
+
+/* Footer Styling */
+
+footer {
+    margin-top: 50px;
+  }
+  
+  .footer-container{
+    background-color: #0f172a;
+    display: flex;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .footer-container p{
+    color: white;
+  }
+  
+  .footer-icons{
+    justify-content: center;
+    gap: 20px; 
+    align-items: center;
+    display: flex;
+  }
+  
+  .footer-icons a{
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: rgb(255, 255, 255);
+  }
+  
+  .footer-icons a:hover {
+    color: #6b73ff;
+  }
+  
+  /* ----footer complete------ */
+  

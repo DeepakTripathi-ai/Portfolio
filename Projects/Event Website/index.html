@@ -1,30 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyPortfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="css/index.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tech Mahotsav 2025 | Home</title>
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <!-- External CSS Files -->
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/index.css" />
 </head>
+
 <body>
 
-    <nav class="navbar">
-        <a href="https://github.com/DeepakTripathi-ai" class="logo">MyPortfolio</a>
+  <!-- 🔝 Navbar (same on every page) -->
+  <nav class="navbar">
+    <a href="https://github.com/DeepakTripathi-ai" class="logo">Tech Mahotsav</a>
+
+    <!-- Menu icon for mobile -->
+    <div class="menu-icon" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Navigation links -->
+    <div class="navbar-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="speakers.html">Speakers</a>
+      <a href="registration.html">Registration</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+   <!-- Hero Banner -->
+  <section class="hero">
+    <img src="images/banner.jpg" alt="Tech Mahotsav Banner" />
+    <h1>Welcome to Tech Mahotsav 2025</h1>
+    <p>India's Biggest National Level Technology Festival</p>
+
+    <!-- Search Box -->
+    <input type="text" id="searchBox" placeholder="Search event topics..." />
+    <button onclick="searchEvent()">Search</button>
+  </section>
+
+  <!-- About the Event -->
+  <section class="about">
+    <h2>About the Event</h2>
+    <p>Join us for 3 days of innovation, learning, and fun at Tech Mahotsav 2025. Participate in workshops, coding competitions, and listen to talks from industry leaders. Register now to reserve your spot!</p>
+    <a href="registration.html" class="register-btn">Register Now</a>
+  </section>
+
+
+  <!-- 🔼 Back to Top Button -->
+  <button onclick="scrollToTop()" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+<!-- --------main section complete------- -->
+
+<footer>
         
-        <div class="menu-icon" onclick="toggleMenu()">
-            <i class="fas fa-bars"></i>
-        </div>
+  <div class="footer-container">
+      
+      <p>&copy; 2025 Tech Mahotsav | All Rights Reserved</p>
+  
+      <div class="footer-icons">
+        <a href="https://github.com/DeepakTripathi-ai"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      
+  </div>
+  
 
-        <div class="navbar-links">
-            <a href="index.html"> Home</a>
-            <a href="#">Projects</a>
-            <a href="#">Skills</a>
-            <a href="#">About</a>
-        </div>
-    </nav>
+</footer>
 
-    <script src="js/global.js"></script>
+  <!-- ✅ JS Files -->
+  <script src="js/global.js"></script> <!-- For toggle menu and scroll to top -->
+  <script src="js/filter.js"></script> <!-- For search bar logic -->
 
 </body>
 </html>

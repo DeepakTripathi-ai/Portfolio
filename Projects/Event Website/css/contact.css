@@ -1,0 +1,55 @@
+/* 🎨 Contact Form Container */
+.contact {
+    background-color: rgb(19, 19, 27); /* dark background */
+    color: white;
+    width: 400px; /* form width */
+    margin: 50px auto; /* center the form */
+    padding: 20px;
+    border-radius: 10px; /* rounded corners */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* light shadow */
+  }
+  
+  /* 📌 Form Title */
+  .contact h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+  }
+  
+  /* 📝 Input Fields and Textarea */
+  #contactForm input,
+  #contactForm textarea {
+    width: 100%; /* full width */
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-sizing: border-box; /* important: padding will not increase width */
+  }
+  
+  /* 🖊️ Textarea Size */
+  #contactForm textarea {
+    height: 100px;
+    resize: vertical; /* allow user to expand if needed */
+  }
+  
+  /* 🚀 Submit Button */
+  #contactForm button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #2563eb; /* blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* 🔁 Hover Effect */
+  #contactForm button:hover {
+    background-color: #1d4ed8; /* darker blue */
+  }
+  

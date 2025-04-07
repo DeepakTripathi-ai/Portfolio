@@ -1,0 +1,41 @@
+/* Basic Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: wheat;
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Gallery Section */
+.gallery {
+    text-align: center;
+}
+
+/* Individual Images */
+.gallery img {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}

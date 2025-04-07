@@ -1,0 +1,46 @@
+/* ===== Body background styling ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("/Projects/Product Landing Page/images/Background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+/* ===== Main content center ===== */
+.main-content {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  min-height: 80vh;
+  padding: 30px;
+}
+
+/* ===== Product Card styling with transparent background ===== */
+.product-card {
+  max-width: 400px;
+  text-align: center;
+  color: black;
+}
+
+/* ===== Button styles ===== */
+.product-actions button,
+.cta-button {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  background-color: #0b5ed7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.product-actions button:hover,
+.cta-button:hover {
+  background-color: #084298;
+}

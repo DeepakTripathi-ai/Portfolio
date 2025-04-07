@@ -3,26 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyPortfolio</title>
+    <title>MyBlog</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="/Projects/Travel Blog/css/index.css">
+    <link rel="stylesheet" href="css/global.css">
 </head>
 <body>
 
     <nav class="navbar">
-        <a href="https://github.com/DeepakTripathi-ai" class="logo">MyPortfolio</a>
+        <a href="https://github.com/DeepakTripathi-ai" class="logo">Bloogee</a>
         
         <div class="menu-icon" onclick="toggleMenu()">
             <i class="fas fa-bars"></i>
         </div>
 
         <div class="navbar-links">
-            <a href="index.html"> Home</a>
-            <a href="#">Projects</a>
-            <a href="#">Skills</a>
-            <a href="#">About</a>
+            <a href="index.html"> Home </a>
+            <a href="blog.html">Blog </a>
+            <a href="gallery.html">Gallery </a>
+            <a href="tips.html">Tips </a>
+            <a href="about.html">About </a>
         </div>
     </nav>
+
+    <!-- header end -->
+
+
+    <!-- main section start -->
+
+    <main class="home-content">
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Our Amazing Trip to Kunwara Bhivsen</h1>
+                <p>A memorable adventure with friends at the beautiful Kunwara Bhivsen in Nagpur 🌿</p>
+                <a href="blog.html" class="btn">Read Full Blog</a>
+            </div>
+            <div class="hero-img">
+                <img src="images/kunwara-bhivsen 8.jpg" alt="Kunwara Bhivsen Nagpur">
+            </div>
+        </section>
+    
+        <!-- Highlights Section -->
+        <section class="highlights">
+            <h2>Trip Highlights ✨</h2>
+            <div class="highlight-cards">
+                <div class="card">
+                    <img src="images/trekking.jpeg" alt="Trekking">
+                    <h3>Trekking & Nature Walks</h3>
+                    <p>We explored green trails, forest paths, and hills around Bhivsen Fort.</p>
+                </div>
+                <div class="card">
+                    <img src="images/friends.jpeg" alt="Friends Group">
+                    <h3>Fun With Friends</h3>
+                    <p>Laughs, games, and countless memories with our amazing group of friends.</p>
+                </div>
+                <div class="card">
+                    <img src="images/camping.jpeg" alt="Camping">
+                    <h3>Chill & Camp</h3>
+                    <p>We chilled by the riverside.</p>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Memories Gallery Preview -->
+        <section class="gallery-preview">
+            <h2>Captured Moments </h2>
+            <div class="gallery-images">
+                <img src="images/fun1.jpeg" alt="Group Selfie">
+                <img src="images/fun2.jpeg" alt="Nature View">
+                <img src="images/fun3.jpg" alt="Bhivsen Fort">
+            </div>
+            <a href="gallery.html" class="btn">View Full Gallery</a>
+        </section>
+    
+    </main>
+    
+
+
+    <!-- ----footer section start--- -->
+    <footer>
+        
+        <div class="footer-container">
+            
+            <p>&copy; 2025 Deepak Tripathi. All rights reserved.</p>
+        
+            <div class="footer-icons">
+                    <a href="https://github.com/DeepakTripathi-ai"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            
+        </div>
+        
+
+    </footer>
 
     <script src="js/global.js"></script>
 
